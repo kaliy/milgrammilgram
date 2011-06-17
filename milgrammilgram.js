@@ -9,6 +9,6 @@ $(document).ready(
 );
 
 function milgram(source){
-    return source;
+    return source.replace(/[^\s\,\.\;\!\@\"\#\№\$\%\^\:\&\?\*\(\)\-\_\+\=\/\[\]\{\}\'\|\\\<\>\`\~]{2,}/ig, '$&-$&');
 }
 
