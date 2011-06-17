@@ -1,18 +1,44 @@
 body {
     background-color: white;
+    overflow: hidden;
 }
 
-div {
+#background_div {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    background-image: url('milgrammilgram.jpg');
+    min-height: 533px;
+    margin-left: 
+}
+
+
+
+#bg_img {
+    position: absolute;
+    width:100%;
+    overflow: hidden;
+    top:0;
+    left:0;
+}
+
+#main {
+    position:relative;
+    top:0;
     margin: 30px auto 0;
     width: 600px;
 }
 
 div#copy {
+    position:relative;
     width: 100%;
     text-align: center;
+    margin-top: 20px;
 }
 
 textarea {
+    margin-top: 20px;
     width: 100%;
     background-color: white;
 }
