@@ -2,7 +2,7 @@ $(document).ready(
     function(){
         $('#texttext').keyup(
             function(){
-                $('#result').text(milgram($('#texttext').val()));
+                $('#result').val(milgram($('#texttext').val()));
             }
         );     
     }
