@@ -8,11 +8,11 @@ body {
     top:0;
     left:0;
     width: 100%;
-    background-image: url('milgrammilgram.jpg');
-    min-height: 533px;
-    margin-left: 
 }
 
+h1 {
+  text-align:center;  
+}
 
 
 #bg_img {
