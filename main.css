@@ -1,1 +1,13 @@
- 
+div {
+    margin: 30px auto 0;
+    width: 600px;
+}
+
+div#copy {
+    width: 100%;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+}
