@@ -4,7 +4,7 @@ body {
 }
 
 #background_div {
-    position: absolute;
+    /*position: absolute;*/
     top:0;
     left:0;
     width: 100%;
@@ -17,7 +17,7 @@ h1 {
 
 
 #bg_img {
-    position: absolute;
+    position: fixed;
     width:100%;
     overflow: hidden;
     top:0;
