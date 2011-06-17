@@ -1,4 +1,8 @@
 
+body {
+    background-color: #e7e7e7;
+}
+
 #background_div {
     position: absolute;
     top:0;
