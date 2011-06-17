@@ -1,5 +1,6 @@
 $(document).ready(
     function(){
+	$('#result').val(milgram($('#texttext').val()));
         $('#texttext').keyup(
             function(){
                 $('#result').val(milgram($('#texttext').val()));
